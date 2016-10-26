@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Thrift_Tests' do
+  pod 'Thrift', :path => '../'
+  
+  
+end
