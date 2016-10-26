@@ -1,0 +1,16 @@
+PODS:
+  - Thrift (0.1.0)
+
+DEPENDENCIES:
+  - Thrift (from `../`)
+
+EXTERNAL SOURCES:
+  Thrift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Thrift: f2db7bbd4dc408cebe3ef8db8e5f772cb4ba69b4
+
+PODFILE CHECKSUM: b7b0d5f95963369b41cdbb67171a7e5f3904bf42
+
+COCOAPODS: 1.1.0.rc.2
