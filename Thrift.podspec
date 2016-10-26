@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Thrift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Thrift.'
+  s.summary          = 'Thrift client for Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/Thrift'
+  s.homepage         = 'https://github.com/TaemoonCho/ThriftForSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jake Taemoon Jo' => 'whxoans@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/Thrift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/TaemoonCho/ThriftForSwift.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.facebook.com/jake.t.jo'
 
   s.ios.deployment_target = '8.0'
 
