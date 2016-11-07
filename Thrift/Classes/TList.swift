@@ -30,7 +30,7 @@ public struct TList<Element : TSerializable> : MutableCollectionType, Hashable, 
   public typealias Index = Storage.Index
   
   private var storage = Storage()
-  var array: Storage {
+  public var array: Array<Element> {
     get {
       return storage
     }
